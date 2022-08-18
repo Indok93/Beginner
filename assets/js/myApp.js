@@ -2,8 +2,8 @@
 let imageOnCard = "https://www.dyrenesbeskyttelse.dk/sites/dyrenesbeskyttelse.dk/files/2020-02/Roskilde%20sort%20kat%20KIM%20JOHNSEN.jpg";
 let imageHeader = "Venlig kattekilling?";
 let imageDescription = "Dette er Kiwi, hun er 2 måneder gammel og MEGET skræmmende"
-let imageWidth = 500;
-let imageHeight = 300;
+// let imageWidth = 500;
+// let imageHeight = 300;
 
 
 const myApp = document.getElementById("app");
@@ -21,8 +21,9 @@ cardDescription.innerHTML = imageDescription;
 // Billede
 const cardImage = document.createElement("img");
 cardImage.src = imageOnCard;
-cardImage.setAttribute("height", imageHeight);
-cardImage.setAttribute("width", imageWidth);
+myCard.classList = "galleryCard";
+// cardImage.setAttribute("height", imageHeight);
+// cardImage.setAttribute("width", imageWidth);
 
 //indsætter elementer i DOM
 // myApp.appendChild(newDiv);
