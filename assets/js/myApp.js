@@ -1,9 +1,9 @@
 const myApp = document.getElementById("app");
-const newH1 = document.createElement("h1");
+const newHeader = document.createElement("header");
 
-console.log(newH1);
+console.log(newHeader);
 console.log(myApp);
 
-newH1.innerHTML = "<h1>hellow world</h1>"
+newHeader.innerHTML = "<h1>hellow world</h1>"
 
-myApp.appendChild(newH1);
+myApp.appendChild(newHeader);
